@@ -1,9 +1,9 @@
 # CS 530 - Team 5 - Directonal Temperature Sensor #
 The goal of this project is to create a device that reads the current temperature of the room and saves it if a button is pressed. If the room temperature rises or falls by one degree, the device will output "Hotter" or "Colder," respectively. 
 
-# Setting Up
+## Setting Up
 First, make sure you have the required hardware components and have software dependencies downloaded.
-Method 1: Arduino IDE
+### Method 1: Arduino IDE
   - Download and install the Arduino IDE from here https://www.arduino.cc/en/software
   - Clone this repository
   - Open 530proj.ino in Arduino IDE
@@ -13,11 +13,11 @@ Method 1: Arduino IDE
   - Plug in Arduino and confirm that it communicates with the Serial
   - Verify and Upload
 
-# Software Dependencies
+## Software Dependencies
 - DHT Library (for temperature sensor)
    - https://www.circuitbasics.com/wp-content/uploads/2015/10/DHTLib.zip
 
-# Hardware Requirements
+## Hardware Requirements
 - Arduino (battery or usb powered)
 - Breadboard
 - Wires
@@ -27,10 +27,10 @@ Method 1: Arduino IDE
 - DHT-11 Temperature/Humidity Sensor
 - (optional, for lcd) Potentiometer
 
-# Schematic
+### Schematic
 ![schematic](https://user-images.githubusercontent.com/8890306/145482942-5ac339f4-1b13-4538-8322-1284ea9a93c6.png)
 
-# 👨 Team Members
+## 👨 Team Members
 - Chase Knowland (Leader)
 - Zi Wang
 - Renan Hiramatsu
